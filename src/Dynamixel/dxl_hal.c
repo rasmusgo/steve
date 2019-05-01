@@ -1,3 +1,4 @@
+#define __HAS_DELAY_CYCLES 0
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>
