@@ -36,7 +36,7 @@ int dxl_hal_open(int devIndex, float baudrate)
 	// set UART register A
 	//Bit 7: USART Receive Complete
 	//Bit 6: USART Transmit Complete
-	//Bit 5: USART Data Resigter Empty
+	//Bit 5: USART Data Register Empty
 	//Bit 4: Frame Error
 	//Bit 3: Data OverRun
 	//Bit 2: Parity Error
