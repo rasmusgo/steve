@@ -150,7 +150,7 @@ int main(void)
             printf( "Stop\n" );
             for( i=0; i<NUM_ACTUATOR; i++ )
             {
-                offsets[i] = 0.0f;
+                //offsets[i] = 0.0f;
                 speeds[i] = 0.0f;
             }
         }
