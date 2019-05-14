@@ -116,34 +116,34 @@ int main(void)
         else if(ReceivedData == 'q')
         {
             printf( "Forward right\n" );
-            offsets[0] = +14.32f; speeds[0] = -0.645f;
-            offsets[1] = -14.32f; speeds[1] = -0.645f;
-            offsets[2] = +9.59f;  speeds[2] = +1.0f;
-            offsets[3] = -9.59f;  speeds[3] = +1.0f;
+            offsets[0] = +30.0f; speeds[0] = -0.447f;
+            offsets[1] = -30.0f; speeds[1] = -0.447f;
+            offsets[2] = +15.0f; speeds[2] = +1.0f;
+            offsets[3] = -15.0f; speeds[3] = +1.0f;
         }
         else if(ReceivedData == 'z')
         {
             printf( "Back right\n" );
-            offsets[0] = +14.32f; speeds[0] = +0.645f;
-            offsets[1] = -14.32f; speeds[1] = +0.645f;
-            offsets[2] = +9.59f;  speeds[2] = -1.0f;
-            offsets[3] = -9.59f;  speeds[3] = -1.0f;
+            offsets[0] = +30.0f; speeds[0] = +0.447f;
+            offsets[1] = -30.0f; speeds[1] = +0.447f;
+            offsets[2] = +15.0f; speeds[2] = -1.0f;
+            offsets[3] = -15.0f; speeds[3] = -1.0f;
         }
         else if(ReceivedData == 'e')
         {
             printf( "Forward left\n" );
-            offsets[0] = -9.59f;  speeds[0] = -1.0f;
-            offsets[1] = +9.59f;  speeds[1] = -1.0f;
-            offsets[2] = -14.32f; speeds[2] = +0.645f;
-            offsets[3] = +14.32f; speeds[3] = +0.645f;
+            offsets[0] = -15.0f; speeds[0] = -1.0f;
+            offsets[1] = +15.0f; speeds[1] = -1.0f;
+            offsets[2] = -30.0f; speeds[2] = +0.447f;
+            offsets[3] = +30.0f; speeds[3] = +0.447f;
         }
         else if(ReceivedData == 'c')
         {
             printf( "Back left\n" );
-            offsets[0] = -9.59f;  speeds[0] = +1.0f;
-            offsets[1] = +9.59f;  speeds[1] = +1.0f;
-            offsets[2] = -14.32f; speeds[2] = -0.645f;
-            offsets[3] = +14.32f; speeds[3] = -0.645f;
+            offsets[0] = -15.0f; speeds[0] = +1.0f;
+            offsets[1] = +15.0f; speeds[1] = +1.0f;
+            offsets[2] = -30.0f; speeds[2] = -0.447f;
+            offsets[3] = +30.0f; speeds[3] = -0.447f;
         }
         else if(ReceivedData == ' ')
         {
