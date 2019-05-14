@@ -113,6 +113,38 @@ int main(void)
                 speeds[i] = -1.0f;
             }
         }
+        else if(ReceivedData == 'q')
+        {
+            printf( "Forward right\n" );
+            offsets[0] = +14.32f; speeds[0] = -0.645f;
+            offsets[1] = -14.32f; speeds[1] = -0.645f;
+            offsets[2] = +9.59f;  speeds[2] = +1.0f;
+            offsets[3] = -9.59f;  speeds[3] = +1.0f;
+        }
+        else if(ReceivedData == 'z')
+        {
+            printf( "Back right\n" );
+            offsets[0] = +14.32f; speeds[0] = +0.645f;
+            offsets[1] = -14.32f; speeds[1] = +0.645f;
+            offsets[2] = +9.59f;  speeds[2] = -1.0f;
+            offsets[3] = -9.59f;  speeds[3] = -1.0f;
+        }
+        else if(ReceivedData == 'e')
+        {
+            printf( "Forward left\n" );
+            offsets[0] = -9.59f;  speeds[0] = -1.0f;
+            offsets[1] = +9.59f;  speeds[1] = -1.0f;
+            offsets[2] = -14.32f; speeds[2] = +0.645f;
+            offsets[3] = +14.32f; speeds[3] = +0.645f;
+        }
+        else if(ReceivedData == 'c')
+        {
+            printf( "Back left\n" );
+            offsets[0] = -9.59f;  speeds[0] = +1.0f;
+            offsets[1] = +9.59f;  speeds[1] = +1.0f;
+            offsets[2] = -14.32f; speeds[2] = -0.645f;
+            offsets[3] = +14.32f; speeds[3] = -0.645f;
+        }
         else if(ReceivedData == ' ')
         {
             printf( "Stop\n" );
