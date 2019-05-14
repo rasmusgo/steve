@@ -154,6 +154,15 @@ int main(void)
                 speeds[i] = 0.0f;
             }
         }
+        else if(ReceivedData == 'x')
+        {
+            printf( "Park\n" );
+            for( i=0; i<NUM_ACTUATOR; i++ )
+            {
+                offsets[i] = (i == 0 || i == 3) ? +30.0f : -30.0f;
+                speeds[i] = 0.0f;
+            }
+        }
 
         for( i=0; i<NUM_ACTUATOR; i++ )
         {
